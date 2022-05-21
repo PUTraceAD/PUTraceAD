@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## PUTraceAD
 
-You can use the [editor on GitHub](https://github.com/PUTraceAD/PUTraceAD/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+PUTraceAD: Trace Anomaly Detection with Partial Labels based on GNN and PU Learning
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Dataset
 
-### Markdown
+Trace Dataset used in evaluation can be found here: <a href="https://github.com/PUTraceAD/PUTraceAD/tree/main/trace_data">Trace Dataset</a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The datasets used by PUTraceAD and SupervisedTraceAD can be found in the `pu_data` folder.
 
-```markdown
-Syntax highlighted code block
+The datasets used by TraceAnomaly and MultimodalTrace can be found in the `baseline_data` folder.
 
-# Header 1
-## Header 2
-### Header 3
+### Results
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PUTraceAD/PUTraceAD/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The results of all experiments, including PUTraceAD and baseline approaches, can be found here <a href="https://github.com/PUTraceAD/PUTraceAD/tree/main/result">Experimental Results</a>
